@@ -21,3 +21,4 @@ end
 def using_shift(my_favorite_cities)
   my_favorite_cities.shift
 end
+
