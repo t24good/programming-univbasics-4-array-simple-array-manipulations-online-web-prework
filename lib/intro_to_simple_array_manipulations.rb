@@ -42,7 +42,7 @@ def using_flatten (instruments)
   instruments.flatten 
 end
 
-def using_delte_at (instructors, no_offense_steven)
+def using_delte_at (no_offense_steven, instructors)
   no_offense_steven.delete(instructors)
 end
 
