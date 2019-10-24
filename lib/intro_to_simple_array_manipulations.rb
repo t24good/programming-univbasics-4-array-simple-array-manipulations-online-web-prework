@@ -16,5 +16,5 @@ end
 
 def pop_with_args(dog_breeds)
   dog_breeds.pop
-  dog_breeds.shift
+  dog_breeds.shift(dog_breeds, small_dogs)
 end
