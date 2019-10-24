@@ -34,4 +34,6 @@ def using_insert (list_of_programming_languages, element)
  list_of_programming_languages.insert(4,element)
 end
 
-def using_uniq ()
+def using_uniq (haircuts)
+  haircuts.uniq 
+end
