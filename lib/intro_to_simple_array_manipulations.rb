@@ -14,7 +14,7 @@ def using_pop(continents)
   continents.pop
 end
 
-def pop_with_args(dog_breeds, small_dogs)
+def pop_with_args(dog_breeds(small_dogs))
   dog_breeds.shift(small_dogs)
-  small_dogs.pop 
+  dog_breeds.pop 
 end
